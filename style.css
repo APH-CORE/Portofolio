@@ -1,0 +1,5 @@
+.project img {
+    width: 100%;
+    height: 160px;   /* UBAH ANGKA INI */
+    object-fit: cover;
+}
