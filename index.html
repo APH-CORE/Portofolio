@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Nazuna</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        a.contact-link {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a.contact-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Nazuna</h1>
+    <p>Mahasiswa & Developer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Portfolio</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Halo! Daffa Athaya Pratama Hadiana is a Multimedia Education student at UPI Cibiru, Bandung, specializing in 3D modeling, interior, and graphic design. Since 2019, he has developed his skills through personal projects, competitions, and mentoring in commercial 3D work. Passionate about learning and growing creatively, Daffa combines technical expertise with a strong sense of design and innovation.</p>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Deskripsi singkat proyek ini. Bisa berupa website, aplikasi, atau game.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Deskripsi singkat proyek ini. Bisa berupa website, aplikasi, atau game.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>Deskripsi singkat proyek ini. Bisa berupa website, aplikasi, atau game.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Kamu bisa hubungi aku lewat email: <a class="contact-link" href="mailto:nazuna@example.com">nazuna@example.com</a></p>
+    <p>Atau cek sosial media aku: <a class="contact-link" href="#">Instagram</a> | <a class="contact-link" href="#">GitHub</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Nazuna. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
